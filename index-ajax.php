@@ -21,7 +21,7 @@
                     <div 
                         v-for="element in cards"
                         class="col card p-3 m-3 text-center">
-                        <img :src="img/ + element.img"/>
+                        <img v-bind:src="'img/' + element.img" />
                         
                     <h2 class="fs-4 text-uppercase text-center mt-2">
                         {{element.title}}
