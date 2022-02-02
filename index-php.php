@@ -10,10 +10,10 @@
 </head>
 <body>
     <header>
-        <?php include_once __DIR__. "/partials/header.php "?>
+        <?php include_once __DIR__ . "/partials/header.php "?>
     </header>
-    <main>
-
+    <main class="bg-dark vh-100 d-flex justify-content-center align-items-center">
+        <?php include_once __DIR__ . "/partials/main.php "?>
     </main>
 </body>
 </html>
